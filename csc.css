@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #31332E;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+footer > p {
+    color: white;
+    padding-top: 5px
+}
+
+footer > img {
+    width:auto;
+    height: 50px
+}
+
+p {
+    font-size: 2vh;
+}
+
+.header {
+    text-align: center;
+}
+
+/* FOR DESKTOP */
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: greenyellow;
+    }
+}
